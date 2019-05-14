@@ -1,0 +1,19 @@
+## Parallel Processing
+#### Async vs Sync
+##### Pool
+- Sync
+    - map
+    - starmap - arg iterable
+    - apply - args=(i, row, 4, 8)
+- Async
+  - map_async
+  - starmap_async
+  - apply_async  
+
+_ pathos : pathos is a framework for heterogenous computing
+
+### Links
+
+* [[Parallel Processing in Python - A Practical Guide with Examples \| ML+](https://www.machinelearningplus.com/python/parallel-processing-python/)]
+* pathos : [python - Multiprocessing: How to use Pool.map on a function defined in a class? - Stack Overflow](https://stackoverflow.com/questions/3288595/multiprocessing-how-to-use-pool-map-on-a-function-defined-in-a-class)
+* [pathos package documentation — pathos 0.2.4.dev0 documentation](https://pathos.readthedocs.io/en/latest/)
