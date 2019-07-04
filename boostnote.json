@@ -4,6 +4,26 @@
       "key": "a9ca775c2bf5e7d307f9",
       "color": "#2BA5F7",
       "name": "Python"
+    },
+    {
+      "key": "7e3a1ae907f34955a625",
+      "color": "#B013A4",
+      "name": "Observations"
+    },
+    {
+      "key": "4743e77011aad88d7467",
+      "color": "#30D5C8",
+      "name": "DL"
+    },
+    {
+      "key": "50608e0ab65b5bb342e2",
+      "color": "#E8D252",
+      "name": "Project_details"
+    },
+    {
+      "key": "05a1251486e32b195cb5",
+      "color": "#30D5C8",
+      "name": "ML"
     }
   ],
   "version": "1.0"
