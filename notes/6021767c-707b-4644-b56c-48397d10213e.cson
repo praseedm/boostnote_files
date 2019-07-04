@@ -1,0 +1,38 @@
+createdAt: "2019-05-15T11:13:23.557Z"
+updatedAt: "2019-06-13T11:36:08.259Z"
+type: "MARKDOWN_NOTE"
+folder: "7e3a1ae907f34955a625"
+title: "May 15 Wed"
+tags: [
+  "dill"
+  "pathos"
+]
+content: '''
+  ### May 15 Wed
+  ##### SpeedUp Model Loading
+  - Multiprocess : 
+      - Multiprocessing.Pool()
+  TypeError: can't pickle _thread.RLock objects
+  
+    - Multiprocess.pool.ThreadPool
+    Solved by replacing multiprocess with multithread
+    
+  ##### pickle vs dill
+  [python - Why does pickling a tensorflow Tensor fail? - Stack Overflow](https://stackoverflow.com/questions/43769390/why-does-pickling-a-tensorflow-tensor-fail)
+  ##### multiprocessing vs pathos
+  
+  ##### Tensorflow
+  * tools.inspect_checkpoint
+  ```bash
+  python -m tensorflow.python.tools.inspect_checkpoint --file_name=./checkpoints/model-0
+  ``` 
+  * tensorboard
+  ```bash
+  tensorboard --logdir=./checkpoints/
+  ```
+  ##### GridSearch with OnevsRest
+  https://stackoverflow.com/questions/12632992/gridsearch-for-an-estimator-inside-a-onevsrestclassifier
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
